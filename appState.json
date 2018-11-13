@@ -16,12 +16,12 @@
       "35819012-9ff2-4cf4-b4cf-4fdfe11770a6": {
         "id": "35819012-9ff2-4cf4-b4cf-4fdfe11770a6",
         "parent": "08b5a2d7-9047-44f5-bb87-8845e0f2547f",
-        "name": "lambdalaaa.js",
+        "name": "lambda.js",
         "type": "LAMBDA_FILE",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "testpreparingcommit/lambdalaaa.js",
+        "filePath": "testpreparingcommit/lambda.js",
         "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "triggers": [],
         "config": {
@@ -32,7 +32,7 @@
       }
     },
     "deletedFiles": [
-      "testpreparingcommit/lambda.js"
+      "testpreparingcommit/lambdalaaa.js"
     ],
     "rootNode": "08b5a2d7-9047-44f5-bb87-8845e0f2547f",
     "openFiles": [
@@ -61,7 +61,7 @@
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
-    "lastSave": 1542103308886,
+    "lastSave": 1542103384992,
     "platformRegions": {
       "AWS": "us-east-2"
     }
