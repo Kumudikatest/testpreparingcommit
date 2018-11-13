@@ -8,8 +8,7 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "35819012-9ff2-4cf4-b4cf-4fdfe11770a6",
-          "12cbf025-fac4-4445-ab5c-5cb6d2378bfe"
+          "35819012-9ff2-4cf4-b4cf-4fdfe11770a6"
         ],
         "isRemovable": false,
         "filePath": "testpreparingcommit"
@@ -30,34 +29,16 @@
           "timeout": 60,
           "memory": 128
         }
-      },
-      "12cbf025-fac4-4445-ab5c-5cb6d2378bfe": {
-        "id": "12cbf025-fac4-4445-ab5c-5cb6d2378bfe",
-        "parent": "08b5a2d7-9047-44f5-bb87-8845e0f2547f",
-        "name": "!@#$%^^^@.js",
-        "type": "LAMBDA_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "testpreparingcommit/!@#$%^^^@.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "triggers": [],
-        "config": {
-          "runtime": "nodejs8.10",
-          "timeout": 60,
-          "memory": 128
-        }
       }
     },
     "deletedFiles": [
-      "testpreparingcommit/new@.js"
+      "testpreparingcommit/!@#$%^^^@.js"
     ],
     "rootNode": "08b5a2d7-9047-44f5-bb87-8845e0f2547f",
     "openFiles": [
-      "35819012-9ff2-4cf4-b4cf-4fdfe11770a6",
-      "12cbf025-fac4-4445-ab5c-5cb6d2378bfe"
+      "35819012-9ff2-4cf4-b4cf-4fdfe11770a6"
     ],
-    "currentFileId": "12cbf025-fac4-4445-ab5c-5cb6d2378bfe",
+    "currentFileId": "35819012-9ff2-4cf4-b4cf-4fdfe11770a6",
     "resources": {},
     "envVariables": [
       {
@@ -80,7 +61,7 @@
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
-    "lastSave": 1542103475973,
+    "lastSave": 1542103520407,
     "platformRegions": {
       "AWS": "us-east-2"
     }
